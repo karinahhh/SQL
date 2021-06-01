@@ -12,5 +12,5 @@ WHERE salary < 20;
 
 UPDATE table 
 SET column=value
-WHERE id<3;
+WHERE id=3;
 ###Обновите таблицу на значение, где ид равно 3
