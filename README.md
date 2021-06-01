@@ -2,8 +2,8 @@
 SELECT column
 FROM table
 WHERE column
-LIKE 'far';
-###Выберете стобец из таблицы, где в любой из позиции есть far
+LIKE '%far%';
+###Выберете столбец из таблицы, где в любой из позиции есть far
 
 SELECT AVG(column)
 FROM family
