@@ -3,7 +3,7 @@
 SELECT TOP 1
 FROM table
 WHERE column
-LIKE 'far';
+LIKE '%far%';
 ```
 ### Посчитать среднее значения в столбце, где значение больше 20
 ```sql
