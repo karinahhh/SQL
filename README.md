@@ -1,6 +1,6 @@
-﻿### Выберете стобец из таблицы, где в любой из позиции есть far
+﻿### Выберете столбец из таблицы, где в любой из позиции есть far
 ```sql
-SELECT column
+SELECT TOP 1
 FROM table
 WHERE column
 LIKE 'far';
@@ -9,12 +9,12 @@ LIKE 'far';
 ```sql
 SELECT AVG(column)
 FROM family
-WHERE salary < 20;
+WHERE salary > 20;
 ```
 
-### Обновите таблицу на значение, где ид равно 3
+### Обновите таблицу на значение, где id равно 3
 ```sql
 UPDATE table 
 SET column=value
-WHERE id<3;
+WHERE id=3;
 ```
