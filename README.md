@@ -7,7 +7,7 @@ LIKE 'far';
 
 SELECT AVG(column)
 FROM family
-WHERE salary < 20;
+WHERE salary > 20;
 ###Посчитать среднее значения в столбце, где значение больше 20
 
 UPDATE table 
